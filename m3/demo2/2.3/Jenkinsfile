@@ -38,7 +38,7 @@ pipeline {
         }
         stage('Smoke Test') {
             steps {
-              sh 'dotnet ./m3/src/Pi.Web/bin/Debug/netcoreapp3.1/Pi.Web.dll'
+              sh 'dotnet ./m3/src/Pi.Web/bin/Debug/netcoreapp3.1/Pi.Web.dl'
             }
         }
         stage('Publish') {
